@@ -18,7 +18,7 @@ namespace SNAKEGAME
             this.ColOffset = ColOffset;
         }
 
-        private Direction Opposite()
+        public Direction Opposite()
         {
             return new Direction(-RowOffset, -ColOffset);
         }

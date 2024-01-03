@@ -8,17 +8,36 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Background.jpg" />
     <None Remove="Assets\Body.png" />
+    <None Remove="Assets\Bodyy.png" />
     <None Remove="Assets\DeadBody.png" />
     <None Remove="Assets\DeadHead.png" />
     <None Remove="Assets\DroidSansMono.ttf" />
+    <None Remove="Assets\DRoses.mp3" />
     <None Remove="Assets\Empty.png" />
     <None Remove="Assets\Food.png" />
     <None Remove="Assets\Head.png" />
     <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\kanye.png" />
+    <None Remove="Assets\kanyeded.png" />
+    <None Remove="Assets\Milk.wav" />
+    <None Remove="Assets\Unravel.mp3" />
+    <None Remove="Assets\wack.mp3" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Assets\DRoses.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Unravel.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Background.jpg" />
+    <Resource Include="Assets\Bodyy.png" />
     <Resource Include="Assets\DeadBody.png" />
     <Resource Include="Assets\DeadHead.png" />
     <Resource Include="Assets\DroidSansMono.ttf" />
@@ -26,6 +45,8 @@
     <Resource Include="Assets\Food.png" />
     <Resource Include="Assets\Head.png" />
     <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\kanye.png" />
+    <Resource Include="Assets\kanyeded.png" />
   </ItemGroup>
 
 </Project>
